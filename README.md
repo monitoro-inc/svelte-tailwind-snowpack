@@ -26,7 +26,9 @@ Your app is ready to be deployed!
 
 ## Environment Variables
 
-You can use environment variables provided they are prefixed with `SNOWPACK_PUBLIC_`
+You can use environment variables provided they are prefixed with `SNOWPACK_PUBLIC_`.
+1. Define your variable in an `.env` file in the root of your project
+2. Use them in your code using `import.meta.env.SNOWPACK_PUBLIC_YOUR_ENV_VAR`
 
 ## License
 
