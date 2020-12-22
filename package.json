@@ -1,0 +1,34 @@
+{
+  "name": "svelte-tailwind-snowpack",
+  "version": "1.0.0",
+  "author": {
+    "name": "Omar Kamali",
+    "email": "omar@monitoro.xyz",
+    "url": "https://monitoro.xyz"
+  },
+  "scripts": {
+    "start": "snowpack dev",
+    "build": "snowpack build",
+    "build:css": "postcss --verbose"
+  },
+  "dependencies": {
+    "svelte": "^3.24.0",
+    "svelte-routing": "^1.4.2",
+    "tailwindcss-font-inter": "^2.0.0"
+  },
+  "devDependencies": {
+    "@snowpack/plugin-dotenv": "^2.0.5",
+    "@snowpack/plugin-postcss": "^1.0.11",
+    "@snowpack/plugin-svelte": "^3.4.1",
+    "autoprefixer": "^10.1.0",
+    "cssnano": "^4.1.10",
+    "postcss": "^8.2.1",
+    "postcss-apply": "^0.12.0",
+    "postcss-cli": "^8.3.1",
+    "postcss-cssnext": "^3.1.0",
+    "postcss-import": "^14.0.0",
+    "snowpack": "^2.18.5",
+    "svelte-preprocess": "^4.6.1",
+    "tailwindcss": "^2.0.2"
+  }
+}

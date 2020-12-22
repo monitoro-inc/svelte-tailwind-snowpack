@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  @apply bg-gray-100;
+  @apply text-gray-800;
+}
+
+body {
+  @apply h-full;
+  @apply antialiased;
+  @apply text-gray-800;
+}
+
+a {
+  @apply text-purple-500;
+}
+
+h1 {
+  @apply text-3xl;
+  @apply text-gray-700;
+  @apply font-light;
+  letter-spacing: -0.02em;
+}
+
+h2 {
+  @apply text-xl;
+  @apply text-gray-600;
+  @apply mb-2;
+  letter-spacing: -0.02rem;
+}
+
+h3 {
+  @apply text-gray-600;
+  @apply font-bold;
+  @apply mb-2;
+}
+
+.whitespace-breakspaces {
+  white-space: break-spaces;
+}
